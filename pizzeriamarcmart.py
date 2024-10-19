@@ -71,7 +71,7 @@ def main(page: ft.Page):
         edit_field = ft.TextField(value=checkbox.label, expand=True)
         save_button = ft.TextButton("Guardar", on_click=save_task)
         edit_dialog = ft.AlertDialog(
-            title=ft.Text("Editar tarea"),
+            title=ft.Text("Editar Sabor"),
             content=edit_field,
             actions=[save_button],
             on_dismiss=lambda e: print("Dialog cerrado")
